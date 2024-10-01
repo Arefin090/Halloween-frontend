@@ -1,4 +1,3 @@
-// src/styles/FormStyles.js
 import styled from "styled-components";
 
 // Spooky Background
@@ -9,6 +8,14 @@ export const PageContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 4rem 2rem;
+
+  @media (max-width: 768px) {
+    padding: 3rem 1.5rem;  /* Reduce padding for tablets */
+  }
+
+  @media (max-width: 480px) {
+    padding: 2rem 1rem;  /* Further reduce padding for mobile */
+  }
 `;
 
 // Form Styling with Halloween Theme
@@ -21,6 +28,14 @@ export const FormContainer = styled.div`
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
   text-align: left;
   position: relative;
+
+  @media (max-width: 768px) {
+    padding: 1.5rem;  /* Adjust padding for tablets */
+  }
+
+  @media (max-width: 480px) {
+    padding: 1rem;  /* Further reduce padding for mobile */
+  }
 `;
 
 export const Heading = styled.h1`
@@ -29,6 +44,14 @@ export const Heading = styled.h1`
   font-weight: bold;
   margin-bottom: 1.5rem;
   text-align: center;
+
+  @media (max-width: 768px) {
+    font-size: 2rem;  /* Reduce heading size for tablets */
+  }
+
+  @media (max-width: 480px) {
+    font-size: 1.8rem;  /* Further reduce heading size for mobile */
+  }
 `;
 
 export const Paragraph = styled.p`
@@ -37,12 +60,30 @@ export const Paragraph = styled.p`
   line-height: 1.6;
   text-align: center;
   margin-bottom: 20px;
+
+  @media (max-width: 768px) {
+    font-size: 0.9rem;  /* Adjust font size for tablets */
+    line-height: 1.4;  /* Adjust line height */
+  }
+
+  @media (max-width: 480px) {
+    font-size: 0.8rem;  /* Adjust font size for mobile */
+    line-height: 1.3;  /* Adjust line height */
+  }
 `;
 
 export const FormGroup = styled.div`
   display: flex;
   flex-direction: column;
   margin-bottom: 1.5rem;
+
+  @media (max-width: 768px) {
+    margin-bottom: 1rem;  /* Adjust spacing for tablets */
+  }
+
+  @media (max-width: 480px) {
+    margin-bottom: 0.8rem;  /* Adjust spacing for mobile */
+  }
 `;
 
 export const Label = styled.label`
@@ -50,12 +91,20 @@ export const Label = styled.label`
   margin-bottom: 0.5rem;
   font-size: 1.1rem;
   color: white;
+
+  @media (max-width: 768px) {
+    font-size: 1rem;  /* Adjust label size for tablets */
+  }
+
+  @media (max-width: 480px) {
+    font-size: 0.9rem;  /* Adjust label size for mobile */
+  }
 `;
 
 export const Input = styled.input`
   padding: 1rem;
   font-size: 1rem;
-  border: 1px solid #fff;  /* Default border color set to white */
+  border: 1px solid #fff;
   border-radius: 8px;
   outline: none;
   background: #333;
@@ -67,7 +116,17 @@ export const Input = styled.input`
   }
 
   &:focus {
-    border-color: #ff6600; /* Bright orange focus */
+    border-color: #ff6600;
+  }
+
+  @media (max-width: 768px) {
+    padding: 0.9rem;  /* Adjust padding for tablets */
+    font-size: 0.9rem;  /* Adjust font size for tablets */
+  }
+
+  @media (max-width: 480px) {
+    padding: 0.8rem;  /* Adjust padding for mobile */
+    font-size: 0.85rem;  /* Adjust font size for mobile */
   }
 `;
 
@@ -83,10 +142,17 @@ export const CheckboxContainer = styled.div`
   label {
     font-size: 1rem;
     color: white;
+
+    @media (max-width: 768px) {
+      font-size: 0.9rem;  /* Adjust label size for tablets */
+    }
+
+    @media (max-width: 480px) {
+      font-size: 0.85rem;  /* Adjust label size for mobile */
+    }
   }
 `;
 
-// Button with Pumpkin Color on Hover
 export const Button = styled.button`
   padding: 1rem 2rem;
   background-color: transparent;
@@ -97,21 +163,38 @@ export const Button = styled.button`
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   text-shadow: 2px 2px 4px #000;
-  margin-bottom: 2rem;  // Added margin for spacing
+  margin-bottom: 2rem;
 
   &:hover {
-    background-color: #ff6600;  /* Pumpkin orange when hovered */
+    background-color: #ff6600;
     color: white;
   }
 
   &:focus {
-    background-color: #ff6600;  /* Pumpkin orange when clicked */
+    background-color: #ff6600;
+  }
+
+  @media (max-width: 768px) {
+    padding: 0.9rem 1.8rem;
+    font-size: 1.1rem;
+  }
+
+  @media (max-width: 480px) {
+    padding: 0.8rem 1.6rem;
+    font-size: 1rem;
   }
 `;
 
-// Error Text Styling
 export const ErrorText = styled.span`
   color: red;
   font-size: 0.9rem;
   margin-top: 5px;
+
+  @media (max-width: 768px) {
+    font-size: 0.85rem;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 0.8rem;
+  }
 `;

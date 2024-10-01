@@ -7,6 +7,8 @@ import Footer from './components/Footer';
 import InfoSection from './components/InfoSection';
 import EventSection from './components/EventSection';
 import MapInfo from './components/MapInfo';
+import BoostEvent from './components/BoostEvent';
+import TermsAndConditions from './components/TermsAndConditions';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <MapInfo/>
       <HalloweenForm />
       <EventSection/>
+      <BoostEvent/>
+      <TermsAndConditions/>
       <Footer/>
     
     </div>
