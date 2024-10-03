@@ -4,7 +4,7 @@ import { TermsContainer, Heading, Subheading, SectionTitle, TermText, List, List
 
 const TermsAndConditions = () => {
   return (
-    <TermsContainer>
+    <TermsContainer id="terms-and-conditions">
       <Heading>🎃 Spooky Fine Print: The Tricks Behind the Treats (AKA Terms & Conditions)</Heading>
       <Subheading>
         Welcome, Ghosts and monsters! As we prepare for a spooktacular night of fun, fright, and unlimited treats, please make sure that you have read these guidelines to ensure a safe and enjoyable Halloween experience for all!

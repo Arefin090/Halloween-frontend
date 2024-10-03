@@ -23,7 +23,7 @@ export const Heading = styled.h1`
   margin-bottom: 30px;
 
   @media (max-width: 480px) {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 `;
 
@@ -33,7 +33,7 @@ export const Subheading = styled.p`
   margin-bottom: 40px;
 
   @media (max-width: 480px) {
-    font-size: 1rem;
+    font-size: 0.9rem;
     margin-bottom: 20px;
   }
 `;
@@ -45,7 +45,7 @@ export const SectionTitle = styled.h2`
   margin-bottom: 20px;
 
   @media (max-width: 480px) {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 `;
 
@@ -66,12 +66,12 @@ export const ListItem = styled.li`
   align-items: center;
 
   &::before {
-    content: "👉";
+  
     margin-right: 10px;
   }
 
   @media (max-width: 480px) {
-    font-size: 1rem;
+    font-size: 0.9rem;
     margin-bottom: 10px;
   }
 `;

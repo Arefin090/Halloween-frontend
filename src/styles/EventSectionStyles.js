@@ -69,27 +69,30 @@ export const PlaceholderText = styled.p`
 
 export const ExploreButton = styled.a`
   display: inline-block;
-  background-color: #000;
-  color: #fff;
-  padding: 15px 30px;
-  border-radius: 50px;
-  font-size: 1.2rem;
+  background-color: #fff; /* Ensure the background is white */
+  color: #000; /* Ensure the text is black */
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 1rem;
   text-decoration: none;
   text-transform: uppercase;
+  border: 2px solid black; /* Add the black border */
   transition: all 0.3s ease-in-out;
 
   &:hover {
-    background-color: #ff4500;
+    background-color: #ff6600; /* Change to pumpkin color on hover */
+    color: white; /* Change text to white on hover */
     transform: scale(1.05);
   }
 
   @media (max-width: 768px) {
-    font-size: 1.1rem; /* Adjust button font size for tablets */
-    padding: 12px 25px; /* Adjust padding for tablets */
+    font-size: 0.9rem;
+    padding: 8px 18px;
   }
 
   @media (max-width: 480px) {
-    font-size: 1rem; /* Further reduce button font size for mobile */
-    padding: 10px 20px; /* Adjust padding for mobile */
+    font-size: 0.8rem;
+    padding: 6px 16px;
   }
 `;
+

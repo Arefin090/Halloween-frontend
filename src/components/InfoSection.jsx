@@ -13,7 +13,7 @@ const InformationSection = () => {
   return (
     <SectionContainer>
       <InfoTitle>
-        🎃 Welcome to Our Spook-tacular <br /> Halloween Headquarters! 👻
+        🎃 Welcome to Our Spook-tacular Halloween Headquarters! 👻
       </InfoTitle>
       <InfoText>
         Hear ye, hear ye, welcome, if you dare, to the ultimate Halloween destination! 🧙‍♀️ Here at Tinytix, we're brewing up the perfect potion of thrills and chills for the most exciting Trick-Or-Treat happening in your streets! 🧛‍♂️

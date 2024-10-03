@@ -31,7 +31,7 @@ export const InfoTitle = styled.h1`
   }
 
   @media (max-width: 480px) {
-    font-size: 1.4rem; /* Further reduced font size for mobile */
+    font-size: 1.2rem; /* Further reduced font size for mobile */
     line-height: 1.2; /* Adjusted line-height to prevent breakage */
     margin-bottom: 1rem;
     word-wrap: break-word; /* Ensure long words break properly */

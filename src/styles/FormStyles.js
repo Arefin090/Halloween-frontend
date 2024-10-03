@@ -198,3 +198,13 @@ export const ErrorText = styled.span`
     font-size: 0.8rem;
   }
 `;
+export const TermsLink = styled.span`
+  color: #ff6600;  /* Pumpkin color */
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: underline;
+
+  &:hover {
+    color: white;  /* Change color on hover */
+  }
+`;

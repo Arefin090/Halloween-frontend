@@ -58,7 +58,7 @@ const Map = ({ address }) => {
             map: map,
             position: { lat: parseFloat(latitude), lng: parseFloat(longitude) },
             icon: {
-              url: 'https://img.icons8.com/?size=100&id=61576&format=png&color=000000',
+              url: 'https://static.wixstatic.com/media/84f0f7_8ec2567a53ce4485bded74fd97214a7b~mv2.png',
               scaledSize: new window.google.maps.Size(50, 50),
             },
             title: address, // Display the address in the marker title

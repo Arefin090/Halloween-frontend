@@ -34,7 +34,7 @@ export const EventButton = styled.button`
   margin-top: 15px; /* Adds space between the image and the button */
   background-color: white; /* Initially white */
   color: black; /* Black text for the white button */
-  border: 2px solid #ff6600; /* Add border for a pumpkin color outline */
+  border: none;
   border-radius: 50px;
   padding: 15px 25px;
   font-size: 1rem;

@@ -5,9 +5,10 @@ import { BoostEventContainer, BoostHeading, BoostSubheading, BoostEmailButton } 
 const BoostEvent = () => {
   return (
     <BoostEventContainer>
-      <BoostHeading>🎃 Reach families looking for spooky fun.<br />Promote with Tinytix today!</BoostHeading>
-      <BoostSubheading>Add your Halloween Event</BoostSubheading>
 
+      <BoostSubheading>Promote your Halloween Event at Tinytix</BoostSubheading>
+      <BoostHeading>🎃 Reach families looking for spooky fun.</BoostHeading>
+    
       <BoostEmailButton href="mailto:hello@tinytix.com.au?subject=Advertise%20a%20Halloween%20Event">
         👻 Boost Your Event Now!
       </BoostEmailButton>

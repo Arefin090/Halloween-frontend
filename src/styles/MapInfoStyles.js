@@ -30,7 +30,10 @@ export const Heading = styled.h1`
   }
 
   @media (max-width: 480px) {
-    font-size: 2rem;  /* Further reduce font size for mobile phones */
+    font-size: 1.4rem; /* Further reduced font size for mobile */
+    line-height: 1.2; /* Adjusted line-height to prevent breakage */
+    margin-bottom: 1rem;
+    word-wrap: break-word; /* Ensure long words break properly
   }
 `;
 
@@ -56,16 +59,16 @@ export const SubText = styled.p`
 export const Text = styled.p`
   font-size: 1.2rem;
   color: #333;
-  margin-bottom: 20px; /* Reduce margin for mobile */
+  margin-bottom: 30px; /* Reduce margin for mobile */
 
   @media (max-width: 768px) {
     font-size: 1rem;  /* Adjust font size for tablets */
-    margin-bottom: 15px; /* Adjust margin for tablets */
+    margin-bottom: 25px; /* Adjust margin for tablets */
   }
 
   @media (max-width: 480px) {
     font-size: 0.9rem;  /* Adjust font size for mobile phones */
-    margin-bottom: 10px; /* Reduce margin between paragraphs for mobile */
+    margin-bottom: 20px; /* Reduce margin between paragraphs for mobile */
   }
 `;
 

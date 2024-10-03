@@ -37,9 +37,9 @@ export const BoostEmailButton = styled.a`
   display: inline-block;
   background-color: #fff;
   color: #000;
-  border-radius: 50px;
-  padding: 15px 30px;
-  font-size: 1.2rem;
+  border-radius: 30px;
+  padding: 8px 18px;
+  font-size: 1rem;
   text-decoration: none;
   margin-top: 20px;
   transition: all 0.3s ease-in-out;
@@ -50,8 +50,13 @@ export const BoostEmailButton = styled.a`
     transform: scale(1.05);
   }
 
+  @media (max-width: 768px) {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+
   @media (max-width: 480px) {
-    font-size: 1rem; /* Adjust font size for mobile */
-    padding: 12px 25px; /* Adjust padding for mobile */
+    font-size: 0.8rem;
+    padding: 8px 18px;
   }
 `;
