@@ -1,6 +1,6 @@
 // src/components/EventSection.js
 import React from 'react';
-import { EventContainer, EventHeading, EventDescription, PlaceholderText, ExploreButton } from '../styles/EventSectionStyles';
+import { EventContainer, EventHeading, EventDescription, ExploreButton } from '../styles/EventSectionStyles';
 
 const EventSection = () => {
   return (
